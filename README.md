@@ -18,9 +18,6 @@ Included here are the following:
 - Terminal
 - Xcode
 
-### Use 
-
-
 ## Testing
 Tested on MacOS v15.5 (24F74)
 
