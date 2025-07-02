@@ -1,5 +1,10 @@
 # karibiner-custom-scripts
- Custom scripts (recepies) for Karibiner Elements
+
+![GitHub release](https://img.shields.io/github/release/aarblaster/karabiner-custom-scripts.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/aarblaster/karabiner-custom-scripts/total.svg)
+![GitHub](https://img.shields.io/github/license/aarblaster/karabiner-custom-scripts.svg)
+
+ Custom scripts for Karabiner Elements on MacOS.
  
 ## Use Function Keys as F1-12 in specified apps
 
