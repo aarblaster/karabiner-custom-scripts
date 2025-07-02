@@ -2,7 +2,6 @@
 
 ![GitHub release](https://img.shields.io/github/release/aarblaster/karabiner-custom-scripts.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/aarblaster/karabiner-custom-scripts/total.svg)
-![GitHub](https://img.shields.io/github/license/aarblaster/karabiner-custom-scripts.svg)
 
  Custom scripts for Karabiner Elements on MacOS.
  
@@ -18,6 +17,9 @@ Included here are the following:
 - After Effects
 - Terminal
 - Xcode
+
+### Use 
+
 
 ## Testing
 Tested on MacOS v15.5 (24F74)
