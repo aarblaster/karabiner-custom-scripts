@@ -1,4 +1,4 @@
-# karibiner-custom-scripts
+# karabiner-custom-scripts
 
 ![GitHub release](https://img.shields.io/github/release/aarblaster/karabiner-custom-scripts.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/aarblaster/karabiner-custom-scripts/total.svg)
