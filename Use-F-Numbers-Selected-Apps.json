@@ -1,12 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>CurrentWorkingDirectory</key>
-	<string>/Users/anthonyarblaster</string>
-	<key>WorksheetContents</key>
-	<string>{
-    "description": "Use Function Keys in Specified Apps, Else Use Media Keys (Default macOS Behavior)",
+{
+    "description": "Use Function Keys in Specified Apps, otherwise use defaults.",
     "manipulators": [
         {
             "conditions": [
@@ -31,33 +24,7 @@
                 "key_code": "f1",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f1" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f1",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "display_brightness_decrement" }],
+            "to": [{ "key_code": "f1", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -83,33 +50,7 @@
                 "key_code": "f2",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f2" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f2",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "display_brightness_increment" }],
+            "to": [{ "key_code": "f2", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -135,33 +76,7 @@
                 "key_code": "f3",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f3" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f3",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "mute" }],
+            "to": [{ "key_code": "f3", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -187,33 +102,7 @@
                 "key_code": "f4",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f4" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f4",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "mute" }],
+            "to": [{ "key_code": "f4", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -239,7 +128,7 @@
                 "key_code": "f5",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f5" }],
+            "to": [{ "key_code": "f5", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -265,7 +154,7 @@
                 "key_code": "f6",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f6" }],
+            "to": [{ "key_code": "f6", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -291,33 +180,7 @@
                 "key_code": "f7",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f7" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f7",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "rewind" }],
+            "to": [{ "key_code": "f7", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -343,33 +206,7 @@
                 "key_code": "f8",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f8" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f8",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "play_or_pause" }],
+            "to": [{ "key_code": "f8", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -395,33 +232,7 @@
                 "key_code": "f9",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f9" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f9",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "fastforward" }],
+            "to": [{ "key_code": "f9", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -447,33 +258,7 @@
                 "key_code": "f10",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f10" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f10",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "mute" }],
+            "to": [{ "key_code": "f10", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -499,33 +284,7 @@
                 "key_code": "f11",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f11" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f11",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "volume_decrement" }],
+            "to": [{ "key_code": "f11", "modifiers": ["fn"] }],
             "type": "basic"
         },
         {
@@ -551,36 +310,8 @@
                 "key_code": "f12",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f12" }],
-            "type": "basic"
-        },
-        {
-            "conditions": [
-                {
-                    "bundle_identifiers": [
-                        "com.apple.dt.Xcode",
-                        "com.apple.Terminal",
-                        "com.adobe.Photoshop",
-                        "com.adobe.PremierePro.23",
-                        "com.adobe.PremierePro.24",
-                        "com.adobe.illustrator",
-                        "com.adobe.Audition",
-                        "com.adobe.AfterEffects",
-                        "net.nemetschek.vectorworks",
-                        "com.ETC.Eos",
-                        "com.ETC.EosWelcomeScreen"
-                    ],
-                    "type": "frontmost_application_unless"
-                }
-            ],
-            "from": {
-                "key_code": "f12",
-                "modifiers": { "optional": ["any"] }
-            },
-            "to": [{ "consumer_key_code": "volume_increment" }],
+            "to": [{ "key_code": "f12", "modifiers": ["fn"] }],
             "type": "basic"
         }
     ]
-}</string>
-</dict>
-</plist>
+}
